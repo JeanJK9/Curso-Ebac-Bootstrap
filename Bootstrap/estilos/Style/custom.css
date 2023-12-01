@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.alinhar {
+    
+}
+
+#sobre {
+    padding-top: 20px;
+}
+
+#produtos {
+    padding-top: 20px;
+}
+
+#botao {
+    padding: 20px;
+}
+
+.card {
+    width: 31%;
+    float: left;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
